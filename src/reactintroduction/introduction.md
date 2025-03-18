@@ -138,6 +138,12 @@ This is the stage where the component is constructed with the given Props and de
 - **componentWillUnmount()**: Invoked just before the component is removed from the DOM. Clean up resources (e.g., event listeners, timers).
 
 ---
+## Summary
+ReactJS components go through a lifecycle consisting of four main phases: Initialization, Mounting, Updating, and Unmounting. During Initialization, the component is set up with props and state. In the Mounting Phase, methods like constructor, render, and componentDidMount handle setup and side effects. The Updating Phase involves re-rendering when state or props change, with lifecycle methods like componentDidUpdate and shouldComponentUpdate optimizing performance. Finally, the Unmounting Phase ensures cleanup through componentWillUnmount, preventing memory leaks. Understanding these phases helps in managing component behavior efficiently.
+
+---
+
+---
 
 ## Why Learn React JS?
 React, the popular JavaScript library, offers several exciting reasons for developers to learn it:
